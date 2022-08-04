@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+}
+.main-container{
+    margin-top: 10rem;
+    width: 25rem;
+    height: 405px;
+    border: 1px solid;
+    border-radius: 18px;
+    background-color: hsl(213, 19%, 18%);
+}
+.image-section{
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    align-items: center;
+}
+.overview-section{
+    height: 18%;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+}
+.overview-section p{
+    font-family: 'Overpass', sans-serif;
+    color: hsl(25, 97%, 53%);
+    border-radius: 15px;
+    background: hsl(217, 12%, 30%);
+    padding: 5px 20px;
+    display: inline;
+}
+.text-section{
+    display: inline-block;
+    height: 41%;
+    text-align: center;
+}
+.text-section p{
+    margin: 10px 30px;
+    line-height: 25px;
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+.text-section h1{
+   color: #fff;
+   font-family: 'Overpass', sans-serif;
+   font-weight: 700;
+}
